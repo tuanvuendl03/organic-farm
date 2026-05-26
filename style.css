@@ -1746,15 +1746,9 @@ body.loaded .hero-media {
   box-shadow: 0 0 0 3px rgba(9, 73, 44, 0.08);
 }
 
+/* Disabled select wrapper default arrow because we use premium custom select dropdown */
 .select-wrapper::after {
-  content: '▼';
-  font-size: 0.8rem;
-  color: var(--color-green-dark);
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
+  display: none;
 }
 
 .calc-result-card {
